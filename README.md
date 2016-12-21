@@ -1,4 +1,4 @@
-A minimal example build project java with Docker
+A minimal example Java Spark project with Docker
 
 Building and running
 Once you have these three files in place, it is very easy to build the Docker image:
