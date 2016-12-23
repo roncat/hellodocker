@@ -2,7 +2,7 @@
 
 
 ## Creating a docker image
-### The project will be compiled into the creation of the image docker through the command below.
+The project will be compiled into the creation of the image docker through the command below.
 sudo docker build -t roncat/sparkexample .
 
 ## Running a docker app as a fat jar
