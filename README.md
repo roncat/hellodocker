@@ -1,14 +1,5 @@
-# A minimal example Java Spark (fat jar project) with Docker Centos:java8
+# Examples Java (fat jars) projects with Docker Centos:java8
+This workspace will show how to start a simple microservices-based application. This will be show in multiple tecnologias.
 
-## Building project
-mvn clean install
-
-## Creating a docker image
-sudo docker build -t roncat/sparkexample .
-
-## Running a docker app as a fat jar
-sudo docker run -d -p 8282:4567 roncat/sparkexample
-
-## Accessing app
-curl localhost:8282
+## Run the application
 
