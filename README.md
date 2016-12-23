@@ -1,10 +1,14 @@
-A minimal example Java Spark project with Docker
+# A minimal example Java Spark (fat jar project) with Docker Centos:java8
 
-Building and running
-Once you have these three files in place, it is very easy to build the Docker image:
+## Building project
+mvn clean install
 
-	#sudo docker build -t roncat/sparkexample .
-	
-	#sudo docker run -d -p 8282:4567 roncat/sparkexample
-	
-	#curl localhost:8282
+## Creating a docker image
+sudo docker build -t roncat/sparkexample .
+
+## Running a docker app as a fat jar
+sudo docker run -d -p 8282:4567 roncat/sparkexample
+
+## Accessing app
+curl localhost:8282
+
