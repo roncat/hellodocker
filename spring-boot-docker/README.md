@@ -21,3 +21,6 @@ The project is created as a Maven project.
 ``` 
   curl localhost:8282
 ```
+
+### Reference
+https://spring.io/guides/gs/spring-boot-docker/#initial
