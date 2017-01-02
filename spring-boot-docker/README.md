@@ -1,15 +1,10 @@
 # A minimal REST example Java Spring Boot with Docker Centos:java8
 
-## Building project
-The project is created as a Maven project.
+## Building project and creating a docker image
+The project is built as a Maven project. The docker image will be created if all goes well.
 
 ```
   sudo mvn package docker:build 
-```
-
-## Creating a docker image
-```
-  sudo docker build -t roncat/springbootexample .
 ```
 
 ## Running a docker app as a fat jar
