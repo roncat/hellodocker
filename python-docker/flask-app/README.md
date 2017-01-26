@@ -7,7 +7,7 @@ The docker image will be created if all goes well.
   sudo docker build -t flask-sample-one:latest .
 ```
 
-## Running a docker app as a fat jar
+## Running a docker app flask python 
 ```
   sudo docker run -d -p 5000:5000 flask-sample-one
 ```
