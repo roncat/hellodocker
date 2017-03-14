@@ -1,13 +1,13 @@
-# dwgettingstarted
+# A minimal example Java Spark (fat jar project) with Docker Centos:java8
 
-How to start the dwgettingstarted application
----
+## Building project
+mvn clean install
 
-1. Run `mvn clean install` to build your application
-1. Start application with `java -jar target/dwgettingstarted-1.0-SNAPSHOT.jar server config.yml`
-1. To check that your application is running enter url `http://localhost:8080`
+## To run the application
+java -jar target/dwgettingstarted-1.0.0-SNAPSHOT.jar server config.yml
 
-Health Check
----
+## Creating a docker image
+sudo docker build -t roncat/dwgettingstarted .
 
-To see your applications health enter url `http://localhost:8081/healthcheck`
+## Running a docker app as a fat jar
+sudo docker run -d -p 8080:8080 roncat/dwgettingstarted
