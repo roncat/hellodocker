@@ -1,4 +1,4 @@
-## A minimal microservice example of Python Flask with Docker 
+## A simple microservice example of Python Flask with Docker 
 
 ### Creating a docker image
 The docker image will be created if all goes well.
