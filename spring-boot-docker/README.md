@@ -20,7 +20,7 @@ http://localhost:8080
 ```
 
 ### Building project and creating a docker image
-The project is built as a Maven project. The docker image will be created if all goes well.
+The project will be built as a Maven project using the docker-maven-plugin. The docker image will be created if all goes well.
 ```
   sudo mvn package docker:build 
 ```
