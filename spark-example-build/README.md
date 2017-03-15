@@ -11,12 +11,12 @@ Works on Linux, Windows and Mac OSX.
 mvn clean install
 ```
 
-### To run the application
+### Running the application locally
 ```
 java -jar target/sparkexample-jar-with-dependencies.jar 
 ```
 
-### Creating a docker image
+### Building the application inside Docker
 The project will be compiled into the creation of the image docker through the command below.
 ```
 sudo docker build -t roncat/spark-example-build .
