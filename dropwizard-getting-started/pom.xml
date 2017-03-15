@@ -14,7 +14,7 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>dropwizard-getting-started</name>
+    <name>Dropwizard Getting Started</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -139,4 +139,5 @@
             </plugin>
         </plugins>
     </reporting>
+    <description>Getting started with Dropwizard Framework and Docker</description>
 </project>
