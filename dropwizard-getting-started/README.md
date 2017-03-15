@@ -32,5 +32,5 @@ sudo docker run -d -p 8080:8080 roncat/dropwizard-getting-started-1.0.0
 
 ### Accessing app
 ``` 
-  curl http://localhost:8080
+  http://localhost:8080/hello
 ```
