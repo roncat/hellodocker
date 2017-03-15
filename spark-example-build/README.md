@@ -1,4 +1,4 @@
-## A minimal example Java Spark (fat jar project) with Docker Centos:java8
+## A minimal example Java Spark Framework (fat-jar project) with Docker Centos:java8
 
 
 ### Creating a docker image
