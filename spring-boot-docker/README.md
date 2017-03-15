@@ -6,9 +6,21 @@ Works on Linux, Windows and Mac OSX.
 * [JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) 
 * [Maven](https://maven.apache.org/)
 
+### Building project
+```
+mvn clean install
+```
+
+### Running the application locally
+```
+java -jar target/spring-boot-docker-1.0.0.jar 
+```
+```
+http://localhost:8080
+```
+
 ### Building project and creating a docker image
 The project is built as a Maven project. The docker image will be created if all goes well.
-
 ```
   sudo mvn package docker:build 
 ```
@@ -20,7 +32,7 @@ The project is built as a Maven project. The docker image will be created if all
 
 ### Accessing app
 ``` 
-  curl http://localhost:8282
+  http://localhost:8282
 ```
 
 #### Reference
