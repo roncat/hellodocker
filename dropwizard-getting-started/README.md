@@ -1,4 +1,4 @@
-## A simple example of Dropwizard (fat-jar project) with Docker in CentOS: java8
+## A simple example Dropwizard (fat-jar project) with Docker in CentOS: java8
 
 ### Building project
 ```
