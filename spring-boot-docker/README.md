@@ -1,4 +1,4 @@
-## A simple REST example of Java Spring Boot with Docker in CentOS:java8
+## A simple REST example Java Spring Boot with Docker in CentOS:java8
 
 ### Building project and creating a docker image
 The project is built as a Maven project. The docker image will be created if all goes well.
