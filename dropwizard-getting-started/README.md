@@ -1,5 +1,11 @@
 ## A simple example Dropwizard (fat-jar project) with Docker in CentOS: java8
 
+### Requirements
+Works on Linux, Windows and Mac OSX.
+* [Docker](https://www.docker.com/)
+* [JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) 
+* [Maven](https://maven.apache.org/)
+
 ### Building project
 ```
 mvn clean install
