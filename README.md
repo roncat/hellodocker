@@ -1,4 +1,4 @@
-## Examples fat-jar projects with Docker in Centos:java8
+## Examples fat-jar projects with Docker in CentOS:java8
  This workspace will show in multiple technologies, how to start a simple self-contained application (fat-jar) within Docker.
  The fat-jar or uber-jar is the ".jar", which contains classes from all the libraries, on which your project depends and, of course, the classes of current project.
 
