@@ -3,7 +3,7 @@ FROM harisekhon/centos-java
 MAINTAINER Flavio Roncat <flavioroncat@gmail.com>
 
 # Install maven
-#RUN yum update 
+# RUN yum update 
 RUN yum install -y maven
 
 WORKDIR /code
@@ -18,4 +18,4 @@ ADD src /code/src
 RUN ["mvn", "package"]
 
 EXPOSE 4567
-CMD ["java", "-jar", "target/sparkexample-jar-with-dependencies.jar"]
+CMD ["java", "-jar", "target/spark-example-build-jar-with-dependencies.jar"]
