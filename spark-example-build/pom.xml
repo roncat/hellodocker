@@ -66,6 +66,43 @@
         </executions>
       </plugin>
       
+      <plugin>
+		    <groupId>com.sebastian-daschner</groupId>
+		    <artifactId>jaxrs-analyzer-maven-plugin</artifactId>
+		    <version>0.14</version>
+		    <executions>
+		        <execution>
+		            <goals>
+		                <goal>analyze-jaxrs</goal>
+		            </goals>
+		            <configuration>
+		                <backend>swagger</backend>
+		            </configuration>
+		        </execution>
+		    </executions>
+		</plugin>
+		<plugin>
+	        <artifactId>maven-resources-plugin</artifactId>
+	        <executions>
+	          <execution>
+	            <id>copy-resources</id>
+	            <!-- here the phase you need -->
+	            <phase>test</phase>
+	            <goals>
+	              <goal>copy-resources</goal>
+	            </goals>
+	            <configuration>
+	              <outputDirectory>src/main/webapp/doc</outputDirectory>
+	              <resources>          
+	                <resource>
+	                  <directory>${basedir}/target/jaxrs-analyzer</directory>
+	                  <filtering>true</filtering>
+	                </resource>
+	              </resources>              
+	            </configuration>            
+	          </execution>
+	        </executions>
+       </plugin>
     </plugins>
   </build>
   
